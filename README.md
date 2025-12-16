@@ -54,7 +54,7 @@ The objective is to find a valid path and compare how different search algorithm
 
 ##  DFS in the Maze
 
-### ⚙️ How DFS Works
+###  How DFS Works
 - Explores the maze by going **deep into one path** before backtracking
 - Uses a **stack (LIFO)** → last inserted is first expanded
 - Continues until it either finds the goal or exhausts all paths
