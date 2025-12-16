@@ -8,7 +8,6 @@ The objective is to find a valid path and compare how different search algorithm
 ---
 
 ## Why This Problem?
-Similar to the **8-puzzle problem**:
 - The maze has a well-defined **state space**
 - You can encode the maze as a **graph**
 - The **goal state** is explicit
@@ -54,7 +53,7 @@ Similar to the **8-puzzle problem**:
 ---
 
 ##  Deliverables
--  Implementation of all six algorithms
+-  Implementation of all three algorithms
 -  Maze visualization + solution path
 -  Maze loader or maze generator
 -  Performance comparison table
