@@ -52,6 +52,38 @@ The objective is to find a valid path and compare how different search algorithm
 
 ---
 
+##  DFS in the Maze
+
+### ⚙️ How DFS Works
+- Explores the maze by going **deep into one path** before backtracking
+- Uses a **stack (LIFO)** → last inserted is first expanded
+- Continues until it either finds the goal or exhausts all paths
+- Does not guarantee the shortest path
+
+###  Maze Behavior
+- DFS dives quickly into one branch of the maze
+- May find a valid path, but not necessarily the **optimal path**
+- Very **memory efficient** compared to BFS
+- Can get stuck exploring long dead ends before backtracking
+
+---
+
+##  A* in the Maze
+
+###  How A* Works
+- Combines **search cost (g)** and **heuristic estimate (h)**
+- Uses a **priority queue** ordered by `f = g + h`
+- Expands nodes that appear most promising toward the goal
+- Common heuristic: **Manhattan distance**
+
+###  Maze Behavior
+- A* directs search toward the goal efficiently
+- Always finds the **shortest path** if the heuristic is admissible
+- Much faster than BFS/UCS in large mazes
+- Memory usage depends on heuristic quality, but generally better than BFS
+
+---
+
 ##  Deliverables
 -  Implementation of all three algorithms
 -  Maze visualization + solution path
