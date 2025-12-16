@@ -1,6 +1,6 @@
 # Maze Pathfinding
 
-## 📖 Problem Description
+##  Problem Description
 Maze pathfinding involves navigating a grid from a **start position** to a **goal position**.  
 The maze contains **walls (blocked cells)** and **free cells**.  
 The objective is to find a valid path and compare how different search algorithms behave.
@@ -35,10 +35,7 @@ Similar to the **8-puzzle problem**:
 ##  Algorithms to Implement
 - **BFS (Breadth-First Search):** Guarantees shortest path but may use significant memory
 - **DFS (Depth-First Search):** Memory efficient but may not find optimal solution
-- **UCS (Uniform Cost Search):** Finds optimal path with uniform costs
-- **IDS (Iterative Deepening Search):** Combines BFS optimality with DFS memory efficiency
 - **A\* with Manhattan Distance:** Should significantly outperform uninformed search
-- **Hill Climbing:** May get stuck in local optima
 
 ---
 
